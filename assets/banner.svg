@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" role="img" aria-labelledby="title desc">
+  <title id="title">emperhub — Developer Profile</title>
+  <desc id="desc">Dark blue gradient banner with a clean geometric design and the words emperhub, Roblox and Luau, Developer Tools, AI Workflows.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#090F22"/>
+      <stop offset="0.54" stop-color="#102449"/>
+      <stop offset="1" stop-color="#0E1640"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#818CF8"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#2563EB" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#2563EB" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#6DA7FF" stroke-opacity="0.10" stroke-width="1"/>
+    </pattern>
+    <clipPath id="edge"><rect width="1280" height="320" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#edge)">
+    <rect width="1280" height="320" fill="url(#bg)"/>
+    <rect width="1280" height="320" fill="url(#grid)"/>
+    <circle cx="1060" cy="150" r="330" fill="url(#glow)"/>
+    <circle cx="1060" cy="144" r="190" fill="none" stroke="#93C5FD" stroke-opacity="0.14" stroke-width="1.5"/>
+    <circle cx="1060" cy="144" r="136" fill="none" stroke="#93C5FD" stroke-opacity="0.22" stroke-width="1.5"/>
+    <circle cx="1060" cy="144" r="82" fill="none" stroke="#93C5FD" stroke-opacity="0.34" stroke-width="1.5"/>
+    <path d="M920 140L1010 92L1100 142L1055 204L960 208Z" fill="none" stroke="url(#accent)" stroke-opacity="0.58" stroke-width="2"/>
+    <path d="M1010 92L1055 204M1100 142L960 208M920 140L1100 142" stroke="#A5B4FC" stroke-opacity="0.22"/>
+    <g fill="#38BDF8"><circle cx="920" cy="140" r="5"/><circle cx="1010" cy="92" r="5"/><circle cx="1100" cy="142" r="5"/><circle cx="1055" cy="204" r="5"/><circle cx="960" cy="208" r="5"/></g>
+    <rect x="64" y="53" width="193" height="30" rx="15" fill="#152C54" stroke="#3664A3" stroke-opacity="0.8"/>
+    <circle cx="80" cy="68" r="4" fill="#38BDF8"/>
+    <text x="95" y="73" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#BFDBFE" letter-spacing="1.5">DEVELOPER PROFILE</text>
+    <text x="60" y="177" font-family="Segoe UI, Arial, sans-serif" font-size="78" font-weight="800" fill="#F8FAFC" letter-spacing="-2">emperhub</text>
+    <rect x="65" y="192" width="97" height="4" rx="2" fill="url(#accent)"/>
+    <text x="65" y="232" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="500" fill="#CBD5E1">Roblox &amp; Luau  /  Developer Tools  /  AI Workflows</text>
+    <text x="66" y="274" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#93A9CB" letter-spacing="0.5">BUILD  •  AUTOMATE  •  EXPLORE</text>
+  </g>
+</svg>
